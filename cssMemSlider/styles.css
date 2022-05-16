@@ -9,7 +9,7 @@ html {
 
 body {
 background-color: #808080;
- padding-top: 85px;
+ padding-top: 50px;
 }
 
 h1 {
@@ -130,8 +130,57 @@ span:last-child {
   margin-top: 20px;
   display: flex;
   align-items: center;
-  width: 800px;
-  height: 55px;
+  width: 700px;
+  height: 45px;
   justify-content: space-between;
+  }
+}
+
+@media (max-width: 330px) {
+body {
+background-color: #808080;
+padding-top: 1px;
+}
+h1 {
+font-weight: bold;
+font-size: 25px;
+line-height: 35px;
+color: #0000000;
+margin: 0;
+margin-bottom: 10px;
+}
+.slider-wrapper {
+max-width: 800px;
+border-radius: 13px;
+width: 90%;
+height: 250px;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+box-shadow: 10px 10px 44px -10px rgba(0, 0, 0, 0.75);
+}
+.navi-inf {
+margin-left: auto;
+margin-right: auto;
+display: flex;
+flex-direction: column-reverse;
+align-items: center;
+width: 250px;
+height: 100px;
+justify-content: space-between;
+}
+.meminfo {
+display: none;
+width: 250px;
+color: white;
+text-shadow: 10px 10px 44px -10px rgba(0, 0, 0, 0.75);
+font-size: 15px;
+}
+.dots-wrapper {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+justify-content: flex-end;
+max-width: 100px;
   }
 }
